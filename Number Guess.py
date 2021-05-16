@@ -3,8 +3,15 @@ import time
 
 print("******Welcome to NUMBER GUESSING GAME******")
 print('\n\n')
-print(' :::Think of a number between 1 to 100:::')
-print('\nOhh No! No! You definately don\'t have to tell me..')
+
+name=input("May I know your name? \n")
+if name==('no' or 'No' or 'NO'):
+    print('Uhhhg! No Problem.')
+else:
+    print('Welcome, ',name)
+
+print('\n\n :::Think of a number between 1 to 100:::')
+print('\nOhh No! No! You definately no don\'t have to tell me..')
 time.sleep(3)
 print('\nAhh Great! I guess you have already guessed a number..')
 print('So here\'s my challenge! i\'ll guess your number within 7 tries ', u"\U0001F609")
